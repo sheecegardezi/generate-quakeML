@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="smi:local/9af5a3cd-8472-4e74-aa4c-2694b388cdb3">
+    <event publicID="smi:ISC/2241078">
+      <preferredOriginID>smi:ISC/3536452</preferredOriginID>
+      <type>earthquake</type>
+      <typeCertainty>known</typeCertainty>
+      <creationInfo>
+        <agencyID>IR</agencyID>
+        <author>ISC</author>
+      </creationInfo>
+      <origin publicID="smi:ISC/3536452">
+        <time>
+          <value>2000-01-01T11:55:22.600000Z</value>
+        </time>
+        <latitude>
+          <value>-37.235</value>
+        </latitude>
+        <longitude>
+          <value>147.665</value>
+        </longitude>
+        <depth>
+          <value>7000.0</value>
+        </depth>
+        <quality>
+          <associatedStationCount>8</associatedStationCount>
+        </quality>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+        <arrival publicID="smi:ISC/43388720#smi_ISC/3536452">
+          <pickID>smi:ISC/43388720</pickID>
+          <phase>Pn</phase>
+          <azimuth>258.367</azimuth>
+          <distance>1.763</distance>
+          <timeResidual>-0.2</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388721#smi_ISC/3536452">
+          <pickID>smi:ISC/43388721</pickID>
+          <phase>Pg</phase>
+          <azimuth>258.367</azimuth>
+          <distance>1.763</distance>
+          <timeResidual>4.6</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388722#smi_ISC/3536452">
+          <pickID>smi:ISC/43388722</pickID>
+          <phase>Sg</phase>
+          <azimuth>258.367</azimuth>
+          <distance>1.763</distance>
+          <timeResidual>-0.5</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388716#smi_ISC/3536452">
+          <pickID>smi:ISC/43388716</pickID>
+          <phase>Pb</phase>
+          <azimuth>36.11</azimuth>
+          <distance>2.357</distance>
+          <timeResidual>-1.6</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388717#smi_ISC/3536452">
+          <pickID>smi:ISC/43388717</pickID>
+          <phase>Sn</phase>
+          <azimuth>36.11</azimuth>
+          <distance>2.357</distance>
+          <timeResidual>1.2</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388714#smi_ISC/3536452">
+          <pickID>smi:ISC/43388714</pickID>
+          <phase>Pn</phase>
+          <azimuth>343.416</azimuth>
+          <distance>5.913</distance>
+          <timeResidual>0.5</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388715#smi_ISC/3536452">
+          <pickID>smi:ISC/43388715</pickID>
+          <phase>Sb</phase>
+          <azimuth>343.416</azimuth>
+          <distance>5.913</distance>
+          <timeResidual>2.1</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388718#smi_ISC/3536452">
+          <pickID>smi:ISC/43388718</pickID>
+          <phase>Pn</phase>
+          <azimuth>315.102</azimuth>
+          <distance>7.322</distance>
+          <timeResidual>1.1</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:ISC/43388719#smi_ISC/3536452">
+          <pickID>smi:ISC/43388719</pickID>
+          <phase>Sn</phase>
+          <azimuth>315.102</azimuth>
+          <distance>7.322</distance>
+          <timeResidual>-1.9</timeResidual>
+          <creationInfo>
+            <agencyID>IR</agencyID>
+            <author>ISC</author>
+          </creationInfo>
+        </arrival>
+      </origin>
+      <pick publicID="smi:ISC/43388720">
+        <time>
+          <value>2000-01-01T11:55:53.400000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="TOO"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>P</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388721">
+        <time>
+          <value>2000-01-01T11:56:01.000000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="TOO"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>Pg</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388722">
+        <time>
+          <value>2000-01-01T11:56:18.800000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="TOO"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>S</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388716">
+        <time>
+          <value>2000-01-01T11:56:03.800000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="CNB"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>P</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388717">
+        <time>
+          <value>2000-01-01T11:56:32.200000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="CNB"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>S</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388714">
+        <time>
+          <value>2000-01-01T11:56:51.100000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="CMSA"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>P</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388715">
+        <time>
+          <value>2000-01-01T11:58:19.100000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="CMSA"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>S</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388718">
+        <time>
+          <value>2000-01-01T11:57:11.100000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="STKA"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>P</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:ISC/43388719">
+        <time>
+          <value>2000-01-01T11:58:31.400000Z</value>
+        </time>
+        <waveformID channelCode="???" locationCode="--" networkCode="AU" stationCode="STKA"></waveformID>
+        <onset>emergent</onset>
+        <phaseHint>S</phaseHint>
+        <creationInfo>
+          <agencyID>IR</agencyID>
+          <author>ISC</author>
+        </creationInfo>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>
