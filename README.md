@@ -16,14 +16,35 @@ _________________
 # 1. Introduction
 Quakeml Generator uses the Obspy framework to create, fill and write a new event to a quakeml file.  Data to be written to a quakeml file is passed to the program as a .txt file. Instructions and examples for formatting the .txt file for proper parsing are described below.  This program is written for quakeml version 1.2 documentation may be found here: [https://quake.ethz.ch/quakeml/Documents]
 
-# 2. Dependencies
-- python 3 (should include 'time' and 'argparse')
-- obspy
+# 2. Install
+  Clone remote repository 
+  > git clone git@github.com:sheecegardezi/generate-quakeML.git
+  >   
+  > cd generate-quakeML
+  > 
+  > python3 -m venv venv
+
+  Activate python virtual environment
+  On variants of Linux run:
+  > 
+  > source venv/bin/activate
+  
+  On Windows machine run:
+  > venv/Scripts/activate
+  
+  Install python dependencies   
+  > python -m pip install -r requirements.txt
 
 # 3. Run Instructions
-- Execute from command line followed by input file
-- ./genquake input.txt -o output.xml
-- for help: ./genquake -h 
+  Execute from command line followed by input file
+  > python -m  generate-quakeml  input.txt -o output.xml
+  
+  For help
+  > python -m  generate-quakeml -h 
+
+#4. Run tests
+  Execute testing framework
+  > python -m unittest
 
 # 4. Files Description
 - genquake - main python executable (from command line with filein as arg)

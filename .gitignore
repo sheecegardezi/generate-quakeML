@@ -27,9 +27,11 @@
 ################
 .DS_Store
 
+
 # IDE files #
 #############
 .idea*
+*.pyc
 
 # VENV files #
 ##############
