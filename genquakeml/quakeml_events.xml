@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/catalog_id_0">
+    <description>catalog of ga events</description>
+    <creationInfo>
+      <author>GA</author>
+      <authorURI>smi:local/ga.gov.au</authorURI>
+      <version>1.0</version>
+    </creationInfo>
+    <event publicID="smi:local/resource_id_ga2021mdlogx">
+      <type>earthquake</type>
+      <typeCertainty>known</typeCertainty>
+      <creationInfo>
+        <author>GA</author>
+        <authorURI>smi:local/ga.gov.au</authorURI>
+        <version>1.0</version>
+      </creationInfo>
+      <origin publicID="smi:local/origins_id_20210621232642.756493.134185">
+        <time>
+          <value>2021-06-21T20:18:10.348000Z</value>
+          <uncertainty>0.3292747291</uncertainty>
+        </time>
+        <latitude>
+          <value>133.9617615</value>
+        </latitude>
+        <longitude>
+          <value>-19.8515358</value>
+        </longitude>
+        <depth>
+          <value>7.673839092</value>
+          <uncertainty>2.646483834</uncertainty>
+        </depth>
+        <depthType>other</depthType>
+        <earthModelID>smi:local/iasp91</earthModelID>
+        <quality>
+          <usedPhaseCount>25</usedPhaseCount>
+          <usedStationCount>21</usedStationCount>
+          <standardError>0.9169764813</standardError>
+          <azimuthalGap>93.07738495</azimuthalGap>
+          <minimumDistance>0.3774693906</minimumDistance>
+          <maximumDistance>18.9073143</maximumDistance>
+        </quality>
+        <region>AU</region>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+        <originUncertainty>
+          <minHorizontalUncertainty>4.638104916</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>6.502429485</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>38.36945724</azimuthMaxHorizontalUncertainty>
+        </originUncertainty>
+        <arrival publicID="smi:local/arrival_id_1543724">
+          <pickID>smi:local/pick_id_1543724</pickID>
+          <phase>P</phase>
+          <azimuth>151.71138</azimuth>
+          <distance>13.79835796</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543723">
+          <pickID>smi:local/pick_id_1543723</pickID>
+          <phase>P</phase>
+          <azimuth>172.1514587</azimuth>
+          <distance>13.04172802</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543915">
+          <pickID>smi:local/pick_id_1543915</pickID>
+          <phase>P</phase>
+          <azimuth>162.7727661</azimuth>
+          <distance>12.5868454</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543720">
+          <pickID>smi:local/pick_id_1543720</pickID>
+          <phase>P</phase>
+          <azimuth>270.7590332</azimuth>
+          <distance>11.75127792</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543912">
+          <pickID>smi:local/pick_id_1543912</pickID>
+          <phase>P</phase>
+          <azimuth>179.5358124</azimuth>
+          <distance>10.38593102</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543911">
+          <pickID>smi:local/pick_id_1543911</pickID>
+          <phase>P</phase>
+          <azimuth>142.9606323</azimuth>
+          <distance>10.00956249</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543717">
+          <pickID>smi:local/pick_id_1543717</pickID>
+          <phase>P</phase>
+          <azimuth>169.0317535</azimuth>
+          <distance>8.063113213</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543907">
+          <pickID>smi:local/pick_id_1543907</pickID>
+          <phase>P</phase>
+          <azimuth>281.1190796</azimuth>
+          <distance>8.064551353</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543906">
+          <pickID>smi:local/pick_id_1543906</pickID>
+          <phase>P</phase>
+          <azimuth>337.3416138</azimuth>
+          <distance>7.930458069</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543715">
+          <pickID>smi:local/pick_id_1543715</pickID>
+          <phase>P</phase>
+          <azimuth>348.4334106</azimuth>
+          <distance>7.266144276</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543902">
+          <pickID>smi:local/pick_id_1543902</pickID>
+          <phase>P</phase>
+          <azimuth>224.3977966</azimuth>
+          <distance>7.354050159</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543901">
+          <pickID>smi:local/pick_id_1543901</pickID>
+          <phase>P</phase>
+          <azimuth>309.150177</azimuth>
+          <distance>6.462659836</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543900">
+          <pickID>smi:local/pick_id_1543900</pickID>
+          <phase>S</phase>
+          <azimuth>98.51383972</azimuth>
+          <distance>5.346446514</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543899">
+          <pickID>smi:local/pick_id_1543899</pickID>
+          <phase>P</phase>
+          <azimuth>98.51383972</azimuth>
+          <distance>5.346446514</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543898">
+          <pickID>smi:local/pick_id_1543898</pickID>
+          <phase>S</phase>
+          <azimuth>181.0768433</azimuth>
+          <distance>3.820385456</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543896">
+          <pickID>smi:local/pick_id_1543896</pickID>
+          <phase>S</phase>
+          <azimuth>102.3568039</azimuth>
+          <distance>0.3835559487</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543895">
+          <pickID>smi:local/pick_id_1543895</pickID>
+          <phase>P</phase>
+          <azimuth>102.3568039</azimuth>
+          <distance>0.3835559487</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543729">
+          <pickID>smi:local/pick_id_1543729</pickID>
+          <phase>P</phase>
+          <azimuth>232.0984802</azimuth>
+          <distance>18.9073143</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+        <arrival publicID="smi:local/arrival_id_1543728">
+          <pickID>smi:local/pick_id_1543728</pickID>
+          <phase>P</phase>
+          <azimuth>237.1699066</azimuth>
+          <distance>18.6981411</distance>
+          <earthModelID>smi:local/iasp91</earthModelID>
+          <creationInfo>
+            <author>GA</author>
+            <authorURI>smi:local/ga.gov.au</authorURI>
+            <version>1.0</version>
+          </creationInfo>
+        </arrival>
+      </origin>
+      <magnitude publicID="smi:local/magnitude_id_675939">
+        <mag>
+          <value>3.143801459</value>
+        </mag>
+        <type>ml</type>
+        <originID>smi:local/origins_id_20210621232642.756493.134185</originID>
+        <stationCount>21</stationCount>
+        <azimuthalGap>93.07738495</azimuthalGap>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </magnitude>
+      <pick publicID="smi:local/pick_id_1543724">
+        <time>
+          <value>2021-06-21T20:21:25.504000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="STKA" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>331.71137999999996</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543723">
+        <time>
+          <value>2021-06-21T20:21:14.913000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="BBOO" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>352.15145870000003</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543915">
+        <time>
+          <value>2021-06-21T20:21:10.052000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="YAPP" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>342.7727661</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543720">
+        <time>
+          <value>2021-06-21T20:20:58.051000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="CAAN" locationCode="" channelCode="HHZ"></waveformID>
+        <backazimuth>
+          <value>90.75903319999998</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543912">
+        <time>
+          <value>2021-06-21T20:20:38.652000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="MULG" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>359.5358124</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543911">
+        <time>
+          <value>2021-06-21T20:20:34.962000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="INKA" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>322.9606323</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543717">
+        <time>
+          <value>2021-06-21T20:20:09.296000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="OOD" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>349.03175350000004</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543907">
+        <time>
+          <value>2021-06-21T20:20:07.293000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="FITZ" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>101.11907960000002</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543906">
+        <time>
+          <value>2021-06-21T20:20:06.320000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="DPH" locationCode="" channelCode="SHZ"></waveformID>
+        <backazimuth>
+          <value>157.3416138</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543715">
+        <time>
+          <value>2021-06-21T20:19:57.099000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="KDU" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>168.4334106</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543902">
+        <time>
+          <value>2021-06-21T20:19:57.398000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="WRKA" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>44.39779659999999</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543901">
+        <time>
+          <value>2021-06-21T20:19:46.175000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="KNRA" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>129.15017699999999</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543900">
+        <time>
+          <value>2021-06-21T20:20:32.018000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="QIS" locationCode="" channelCode="BHE"></waveformID>
+        <backazimuth>
+          <value>278.51383972</value>
+        </backazimuth>
+        <phaseHint>S</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543899">
+        <time>
+          <value>2021-06-21T20:19:32.239000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="QIS" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>278.51383972</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543898">
+        <time>
+          <value>2021-06-21T20:19:56.211000Z</value>
+        </time>
+        <waveformID networkCode="S1" stationCode="AUALC" locationCode="" channelCode="HHE"></waveformID>
+        <backazimuth>
+          <value>1.0768433000000073</value>
+        </backazimuth>
+        <phaseHint>S</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543896">
+        <time>
+          <value>2021-06-21T20:18:24.112000Z</value>
+        </time>
+        <waveformID networkCode="II" stationCode="WRAB" locationCode="" channelCode="BH1"></waveformID>
+        <backazimuth>
+          <value>282.3568039</value>
+        </backazimuth>
+        <phaseHint>S</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543895">
+        <time>
+          <value>2021-06-21T20:18:18.939000Z</value>
+        </time>
+        <waveformID networkCode="II" stationCode="WRAB" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>282.3568039</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543729">
+        <time>
+          <value>2021-06-21T20:22:31.515000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="BLDU" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>52.09848020000001</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+      <pick publicID="smi:local/pick_id_1543728">
+        <time>
+          <value>2021-06-21T20:22:27.596000Z</value>
+        </time>
+        <waveformID networkCode="AU" stationCode="MORW" locationCode="" channelCode="BHZ"></waveformID>
+        <backazimuth>
+          <value>57.16990659999999</value>
+        </backazimuth>
+        <phaseHint>P</phaseHint>
+        <polarity>undecidable</polarity>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>reviewed</evaluationStatus>
+        <creationInfo>
+          <author>GA</author>
+          <authorURI>smi:local/ga.gov.au</authorURI>
+          <version>1.0</version>
+        </creationInfo>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>

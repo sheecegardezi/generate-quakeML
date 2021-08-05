@@ -76,7 +76,7 @@ type:::Mw               <br>
 .
 .
 
-Full example file: [input.text](input.txt)
+Full example file: [input.text](data/input.txt)
 
 
 ## 5.2 Descriptions for Input File Keys

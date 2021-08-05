@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Created on Tue Jan  9 15:58:51 2018
+"""
+Created on Tue Jan  9 15:58:51 2018
 @author: marnold
 
 Helper functions for use by genquake.  Includes 
@@ -10,42 +11,6 @@ objects.
 import argparse
 import obspy
 from time import gmtime, strftime
-
-
-def txt2dictionary():
-    """
-    Creates command line arguments, checks for output filename,
-    parses input text file to python dictionary and returns
-    python dictionary and output filename
-    """
-    # create parser and add arguments
-    parser = argparse.ArgumentParser()
-    parser.add_argument('file', type=argparse.FileType('r'),
-                        help="must input a .txt file.  see input.txt for example.  Further documentation is in README.md")
-    parser.add_argument('-o', '--output', help="output file, if not entered will default to 'out' + eventid + '.xml'")
-    args = parser.parse_args()  # create arguments list
-
-    # read in file to python dictionary
-    lines = args.file.readlines()
-    data = {}
-    for line in lines:
-        if line[0] == "#" or line[0] == "" or line[0] == "\n":
-            pass
-        else:
-            temp = line.split(":::")
-            tmp = temp[1]
-            temp[1] = tmp[:-1]
-            data[temp[0]] = temp[1]
-        output_filename = ""
-
-    # Check for output file argument.
-    # If no output file argument, make an output filename.
-    if args.output:
-        output_filename = args.output
-    else:  #
-        print("No output file argument. Default filename will be generated...")
-        output_filename = "out_" + data['datasource'].lower() + data['eventid'] + '.xml'  # set output filename
-    return data, output_filename
 
 
 def lowercaseInput(dct):  # convert source input information to lowercase
